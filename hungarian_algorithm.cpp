@@ -2,7 +2,6 @@
 #include <vector>
 #include <limits>
 using namespace std;
-
 const int INF = numeric_limits<int>::max();
 
 int hungarian(const vector<vector<int>>& costMatrix, vector<int>& assignment) {
