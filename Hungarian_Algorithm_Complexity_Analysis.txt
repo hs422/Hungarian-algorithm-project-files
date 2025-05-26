@@ -1,0 +1,19 @@
+Hungarian Algorithm – Complexity Analysis for Delivery Optimization
+
+Time Complexity
+O(n³)
+
+- n = number of agents or tasks (assumes a square cost matrix).
+- The algorithm performs multiple passes over the matrix for reduction, zero covering, and adjustment.
+- Efficient for moderate-sized assignment problems.
+
+Space Complexity
+O(n²)
+
+- Requires storage for the cost matrix and marker matrices for assignments and zero coverage.
+
+Notes:
+- Ideal for static delivery assignment problems where all costs are known in advance.
+- Can be extended to dynamic delivery models by updating the cost matrix in real time.
+- Guarantees optimal assignment – making it suitable for high-priority delivery optimization like drones, where efficiency is critical.
+- Compared to metaheuristic approaches (e.g., Cuckoo Search), it ensures deterministic optimality rather than relying on exploration or random search.

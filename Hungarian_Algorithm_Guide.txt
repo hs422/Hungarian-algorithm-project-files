@@ -1,0 +1,31 @@
+📌 How to Run (Python 3.x)
+
+Step 1: Install Python
+Make sure Python 3.x is installed on your system. You can download it from:
+https://www.python.org
+
+Step 2: Load the Code
+Open any Python IDE (such as VS Code, PyCharm, or IDLE), or use a terminal-based editor.
+Create a new file and paste the contents of hungarian_algorithm.py located in the code/ folder.
+
+Or, open it using:
+    python hungarian_algorithm.py
+
+Step 3: Save the File
+Save it as hungarian_algorithm.py.
+
+Step 4: Run the Code
+In terminal or command prompt:
+    python hungarian_algorithm.py
+Or, press Run in your IDE.
+
+The console will display the cost matrix, assignments, and the minimized total cost.
+
+✨ Features
+
+- Solves the Assignment Problem using the Hungarian Algorithm.
+- Accepts a cost matrix as input and finds an optimal assignment that minimizes total cost.
+- Uses matrix manipulation techniques like row and column reduction.
+- Efficiently handles square and rectangular matrices.
+- Outputs the optimal assignment and minimum total cost.
+- Can be easily modified to solve maximization problems with slight changes.
